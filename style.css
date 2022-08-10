@@ -1,0 +1,355 @@
+*{
+    Margin: 0;
+    padding: 0;
+    color:#ff7200; 
+    
+    
+
+}
+body{
+    width: 100%;
+    background-image:  url('Cars6.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    margin-top: 20px;
+   
+}
+.icon{
+    width: 100%;
+    border: 2% solid #ff7200;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    
+
+    
+}
+     
+     
+.menu .icon{
+    width: 260px;
+    float: left;
+    height: 70px;
+}
+.menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 20px;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.search{
+        width: 330px;
+        float: right;
+        margin-left: 270px;
+        padding-top: 20px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #ff7200;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    color: blue;
+    
+}
+.btn-1{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px; 
+    border-bottom-right-radius: 5px;   
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    clear:left;
+width: 100%;
+height: auto;
+color: #fff;
+padding-top: 7rem;
+
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: Times New Roman;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+ .content button{
+    width: 150px;
+    height: 40px;
+    background-color: #ff7200 ;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: .4s ease;
+    margin-left: 20px;
+
+
+}
+.content button a{
+text-decoration: none;
+color: white;
+transition: width 2s, height 4s;
+} 
+button:hover{
+    background-color: #fff; 
+    color:#ff7200  ; 
+}
+.content span{
+    color: #fff;
+    font-size: 40px;
+}
+.form{
+    width: 250px;
+    height: 490px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px; 
+    margin-top: 15rem;
+    margin-left: 10.8rem;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    background-color: #ff7200;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: arial;
+
+}
+
+
+.btn-2{
+    width: 240px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background: #ff7200;
+    height: 40px;
+    border: none;
+    margin: 4px;
+    border-bottom-right-radius: 5px; 
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}     
+   
+.btn-2:hover{
+    background: #fff;
+    color:#ff7200;
+}
+.btn-2{
+    text-decoration: none;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{ 
+    text-decoration: none;
+    color: white;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form .icon-2{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    width: 260px; 
+    float: left;
+     height: 70px; 
+    
+}
+
+.form .icon-2:hover{
+    color: white;
+}
+
+.social{
+    margin: 0 4rem;
+}
+
+.social a{
+    font-size: 20px;
+    max-width: 550px;
+    
+}
+.icons{
+    maxtext-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+} 
+.icons icofont:hover{
+    color: #ff7200;
+
+} 
+.body a{
+    text-decoration: none;
+    margin-left: -0px;
+    
+}
+.body{
+    width: 20px;
+}
+.body:hover{
+    color: #ff7200;
+    background: #fff;
+}
+.style{margin-left: 20px;}
+
+
+
+.dark{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -295px;
+}
+.sark{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: auto;
+    transition: 0.4s;
+
+}
+.sark:hover{
+    color : #fff;
+}
+.dk{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.dk h1{
+    font-size: 25px;
+    border: #fff;
+    border-radius: 550%;
+    border-style: solid;
+    padding-top: 7%;
+    border-color: black;
+    background-color: black;
+    
+    
+}
+.sk{
+    background-image: url(casr2.jpg);
+    background-size: ;
+    height: 500;
+}
+.sk h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+.sk h2{font-size: 25px;
+    border-style: solid;
+  border-width: 30px;
+    border-color: black;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+    
